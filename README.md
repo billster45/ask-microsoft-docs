@@ -4,29 +4,32 @@ Ask Microsoft's official documentation anything - powered by GitHub Copilot and 
 
 **Free. No API keys. Five-minute setup.**
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/<OWNER>/ask-microsoft-docs?quickstart=1)
-
-Replace `<OWNER>` in the badge URL with your GitHub username or organization name.
-
 ## What is this?
 
 This is a starter template that lets GitHub Copilot answer your questions using Microsoft's official documentation. You open it in GitHub Codespaces, switch Copilot Chat to Agent mode, and ask about products like Excel, Azure, Outlook, .NET, and Power Automate. Copilot searches Microsoft Learn and replies with source links you can click and verify. In short: less guessing, more trusted answers.
 
 ## What do I need?
 
-- A free GitHub account
-- GitHub Copilot (Copilot Free is fine, with monthly usage limits)
+- A free GitHub account: https://github.com/signup
+- GitHub Copilot Free: https://github.com/features/copilot/plans
+  Copilot Free includes:
+  - 50 agent mode or chat requests per month
+  - 2,000 completions per month
+  - Access to Haiku 4.5, GPT-5 mini, and more
 - Nothing else: no API keys, no Azure subscription, no local setup required
 
 ## Quick start
 
-1. Click **Use this template** at the top of this repo, or use the **Open in GitHub Codespaces** badge above.
-2. Wait for your Codespace to finish loading. Then open Copilot Chat:
+1. Click **Use this template** at the top of this repo and create your own copy.
+   Screenshot placeholder: `![Use this template button](docs/images/use-this-template.png)`
+2. In your new repo, click **Code** -> **Codespaces** -> **Create codespace on main**.
+   Screenshot placeholder: `![Create codespace on main](docs/images/create-codespace.png)`
+3. Wait for your Codespace to finish loading. Then open Copilot Chat:
    Windows/Linux: `Ctrl+Alt+I`
    macOS: `Cmd+Alt+I`
-3. In Copilot Chat, change the mode to **Agent** (important).
-4. Click the tools icon (`🔧`) in chat and confirm you can see `microsoft-learn` with tools like `microsoft_docs_search` and `microsoft_docs_fetch`.
-5. Ask your first question, for example:
+4. Agent mode is usually on by default. If it is not, switch the mode dropdown to **Agent**.
+5. Click the tools icon (`🔧`) in chat, check the `microsoft-learn` box, then click **Update tools**.
+6. Confirm tools like `microsoft_docs_search` and `microsoft_docs_fetch` appear, then ask your first question:
    `How do I freeze panes in Excel? search Microsoft Learn`
 
 If you do not see Microsoft Learn tools, reload the window:
@@ -48,7 +51,7 @@ This repo contains a small config file that VS Code reads automatically. That fi
 
 ## Tips for best results
 
-- Use **Agent** mode (not Ask or Edit mode)
+- Agent mode is usually default, but double-check if tools do not run
 - Add `search Microsoft Learn` to prompts to make sure docs tools are used
 - Add `fetch full doc` when you want the complete page content
 - Ask follow-up questions; Copilot keeps tool context
