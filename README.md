@@ -20,7 +20,10 @@ This is a starter template that lets GitHub Copilot answer your questions using 
 
 ## Quick start
 
-1. Click **Use this template** at the top of this repo and create your own copy.
+1. Create your own repo from this template.
+   Recommended (private by default):
+   `https://github.com/new?template_owner=billster45&template_name=ask-microsoft-docs&visibility=private`
+   Or click **Use this template** at the top of this repo.
    Screenshot placeholder: `![Use this template button](docs/images/use-this-template.png)`
 2. In your new repo, click **Code** -> **Codespaces** -> **Create codespace on main**.
    Screenshot placeholder: `![Create codespace on main](docs/images/create-codespace.png)`
@@ -34,6 +37,15 @@ This is a starter template that lets GitHub Copilot answer your questions using 
 
 If you do not see Microsoft Learn tools, reload the window:
 `Ctrl+Shift+P` -> `Developer: Reload Window`
+
+## Privacy note
+
+Your Copilot chat is not automatically published to the internet. What can become public is content you save to a public repository.
+
+- If you want private work by default, create your repo as **Private**.
+- Do not commit sensitive prompts, internal notes, or secrets.
+- Codespaces are tied to your account, but forwarded ports can be shared if you set them to public.
+- Use private ports unless you intentionally want to share a running app.
 
 ## Example prompts
 
