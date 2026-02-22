@@ -11,11 +11,12 @@ This is a starter template that lets GitHub Copilot answer your questions using 
 ## What do I need?
 
 - A free GitHub account: https://github.com/signup
-- GitHub Copilot Free: https://github.com/features/copilot/plans
-  Copilot Free includes:
+- GitHub Copilot is included with every GitHub account, with a default free allowance (Copilot Free).
+- Copilot Free currently includes:
   - 50 agent mode or chat requests per month
   - 2,000 completions per month
   - Access to Haiku 4.5, GPT-5 mini, and more
+- For paid upgrades and current pricing, see: https://github.com/features/copilot/plans
 - Nothing else: no API keys, no Azure subscription, no local setup required
 
 ## Quick start
@@ -24,16 +25,33 @@ This is a starter template that lets GitHub Copilot answer your questions using 
    Recommended (private by default):
    `https://github.com/new?template_owner=billster45&template_name=ask-microsoft-docs&visibility=private`
    Or click **Use this template** at the top of this repo.
-   Screenshot placeholder: `![Use this template button](docs/images/use-this-template.png)`
+
+   ![Use this template button](docs/images/template-sm.png)
+
 2. In your new repo, click **Code** -> **Codespaces** -> **Create codespace on main**.
-   Screenshot placeholder: `![Create codespace on main](docs/images/create-codespace.png)`
+
+   ![Create codespace on main](docs/images/codespace-sm.png)
+
 3. Wait for your Codespace to finish loading. Then open Copilot Chat:
    Windows/Linux: `Ctrl+Alt+I`
    macOS: `Cmd+Alt+I`
 4. Agent mode is usually on by default. If it is not, switch the mode dropdown to **Agent**.
-5. Click the tools icon (`🔧`) in chat, check the `microsoft-learn` box, then click **Update tools**.
-6. Confirm tools like `microsoft_docs_search` and `microsoft_docs_fetch` appear, then ask your first question:
+5. Click the config tools icon in chat.
+
+   ![Open Copilot tools configuration](docs/images/config-sm.png)
+
+6. Check the `microsoft-learn` box, then click **Update tools**.
+
+   ![Select microsoft-learn and click Update tools](docs/images/tick-sm.png)
+
+7. You should now see the Microsoft Learn tools loaded.
+
+   ![Microsoft Learn tools loaded in Copilot](docs/images/loaded-sm.png)
+
+8. Ask your first question:
    `How do I freeze panes in Excel? search Microsoft Learn`
+
+   ![Example query in Copilot chat](docs/images/query-sm.png)
 
 If you do not see Microsoft Learn tools, reload the window:
 `Ctrl+Shift+P` -> `Developer: Reload Window`
